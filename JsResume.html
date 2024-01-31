@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+
+  h2:hover{
+    color: blue;
+  }
+  td:hover{
+    background-color: aqua;
+  }
+  th:hover{
+    background-color: blueviolet;
+  }
+  
+</style>
+
+<body>
+    
+      
+    <script>
+        
+        var cointainer = document.createElement("div")
+        document.body.append(cointainer)
+
+        cointainer.style.border = "4px solid"
+       
+        //name//
+        var a = document.createElement("h1")
+        a.innerText = ("Supriya bijiga")
+        cointainer.append(a)
+        a.style.padding = "10px"
+        var e=document.createElement("h2")
+        cointainer.append(e)
+        e.style.padding = "10px"
+        e.innerText=("supriyabijiga@gmail.com")
+
+        // photo//
+        var b = document.createElement("img")
+        cointainer.append(b)
+        b.setAttribute("src", "./pass photo copy.jpg")
+        b.style.width = "100px"
+        b.style.marginLeft = "1400px"
+        b.style.marginTop = "-120px"
+        b.style.border = "1px solid"
+
+        //hr//
+        var hr= document.createElement("hr")
+        cointainer.append(hr)
+
+
+        //carrer//
+        var field=document.createElement('fieldset')
+         cointainer.appendChild(field)
+        var d=document.createElement("legend")
+        field.appendChild(d)
+        d.innerText="Carrer Object"
+        var c = document.createElement("p")
+        field.appendChild(c)
+        c.innerText = ("To be the part of organization that provides the opportunity to show my skills and improve my knowledge with the latest trends and to be the part of team that works dynamically which  brings to fortune to the organization and my professional skills.")
+        
+         //hr//
+         var hr= document.createElement("hr")
+        cointainer.append(hr)
+
+
+        // tech//
+        var tec=document.createElement("h2")
+        cointainer.append(tec)
+        tec.innerText="Technicalskills"
+        tec.style.padding="10px"
+        tec.style.marginTop="-10px"
+
+        var lin=document.createElement("li")
+        cointainer.append(lin)
+        lin.innerText="HTML"
+        lin.style.marginTop="-20px"
+        lin.style.padding="5px"
+
+        var lin=document.createElement("li")
+        cointainer.append(lin)
+        lin.innerText="CSS"
+        lin.style.marginTop="-1px"
+        lin.style.padding="5px"
+
+        var lin=document.createElement("li")
+        cointainer.append(lin)
+        lin.innerText="JAVASCRIPT"
+        lin.style.marginTop="-1px"
+        lin.style.padding="5px"
+        
+         //hr//
+         var hr= document.createElement("hr")
+        cointainer.append(hr)
+
+         
+        //edu//
+        var edu=document.createElement("h2")
+        cointainer.append(edu)
+        edu.innerText="Education Qualifcation"
+        edu.style.padding="10px"
+        edu.style.marginTop="-10px"
+        
+        //table//
+       var tab=document.createElement("table")
+       cointainer.append(tab)
+       tab.style.border="2px solid black"
+       tab.style.borderCollapse="Collapse"
+       tab.style.marginLeft="10px"
+
+       //1st row//
+       var trow=document.createElement("tr")
+       tab.append(trow)
+
+        var thr1=document.createElement("th")
+        trow.appendChild(thr1)
+        thr1.innerText="S.no"
+        thr1.style.border="1px solid black"
+
+        var thr2=document.createElement("th")
+        trow.appendChild(thr2)
+        thr2.innerText="Collge/university"
+        thr2.style.border="1px solid black"
+
+        var thr4=document.createElement("th")
+        trow.appendChild(thr4)
+        thr4.innerText="Course"
+
+
+        var thr3=document.createElement("th")
+        trow.appendChild(thr3)
+        thr3.innerText="year"
+        thr3.style.border="1px solid black"
+
+       //2nd row//
+        var trow1=document.createElement("tr")
+        tab.appendChild(trow1)
+         
+        var td1=document.createElement("td")
+        trow1.appendChild(td1)
+        td1.innerText="1"
+        td1.style.border="1px solid black"
+
+        var td2=document.createElement("td")
+        trow1.appendChild(td2)
+        td2.innerText="Malla reddy institute of technology and science"
+        td2.style.border="1px solid black"
+
+        var tda3=document.createElement("td")
+         trow1.appendChild(tda3)
+         tda3.innerText="BTech"
+         tda3.style.border="1px solid black"
+
+        var td3=document.createElement("td")
+        trow1.appendChild(td3)
+        td3.innerText="2023"
+        td3.style.border="1px solid black"
+
+        // 3rd row//
+         var trow2=document.createElement("tr")
+         tab.appendChild(trow2)
+
+         var tda1=document.createElement("td")
+         trow2.appendChild(tda1)
+         tda1.innerText="2"
+         tda1.style.border="1px solid black"
+
+         var tda2=document.createElement("td")
+         trow2.appendChild(tda2)
+         tda2.innerText="NRI junior college"
+         tda2.style.border="1px solid black"
+
+         var tda3=document.createElement("td")
+         trow2.appendChild(tda3)
+         tda3.innerText="MPC"
+         tda3.style.border="1px solid black"
+  
+         var tda3=document.createElement("td")
+         trow2.appendChild(tda3)
+         tda3.innerText="2019"
+         tda3.style.border="1px solid black"
+
+         //4th row//
+         var trow3=document.createElement("tr")
+         tab.appendChild(trow3)
+
+         var tda4=document.createElement("td")
+         trow3.appendChild(tda4)
+         tda4.innerText="3"
+         tda4.style.border="1px solid black"
+
+         var tda2=document.createElement("td")
+         trow3.appendChild(tda2)
+         tda2.innerText="Oxford grammar high school"
+         tda2.style.border="1px solid black"
+
+         var tda3=document.createElement("td")
+         trow3.appendChild(tda3)
+         tda3.innerText="SSC"
+         tda3.style.border="1px solid black"
+  
+         var tda3=document.createElement("td")
+         trow3.appendChild(tda3)
+         tda3.innerText="2017"
+         tda3.style.border="1px solid black"
+         
+          
+      //hr//
+       var hr= document.createElement("hr")
+        cointainer.append(hr)
+
+        //hobb//
+         var hob=document.createElement("h2")
+         cointainer.appendChild(hob)
+         hob.innerText="Hobbies"
+         hob.style.padding="5px"
+          
+         var li1=document.createElement("li")
+         cointainer.append(li1)
+         li1.innerText="Playing chess"
+         li1.style.padding="5px"
+
+         var li2=document.createElement("li")
+         cointainer.append(li2)
+         li2.innerText="Cooking "
+         li2.style.padding="5px"
+
+      //hr//
+       var hr= document.createElement("hr")
+        cointainer.append(hr)
+
+
+          
+        //dec//
+        var cl=document.createElement("h2")
+        cointainer.append(cl)
+        cl.innerText="Declaration"
+        cl.style.padding="10px"
+        var dec=document.createElement("marquee")
+        cointainer.append(dec)
+        dec.style.marginTop="-20px"
+        dec.innerText="I hereby declare that the above written particulars are true to the best of my knowledge and belief."
+        
+        var p1=document.createElement("p")
+        cointainer.appendChild(p1)
+        p1.innerText="B.Supriya"
+        p1.style.marginTop="-0px"
+        p1.style.marginLeft="10px"
+
+        var q1 = document.createElement("img")
+        cointainer.append(q1)
+        q1.setAttribute("src", "./WhatsApp Image 2024-01-26 at 03.32.58_fc1205c9.jpg")
+        q1.style.width = "100px"
+        q1.style.marginLeft="10px"
+        q1.style.border = "1px solid"
+
+        //screenshot//
+        // var sc=document.createElement("img")
+        // cointainer.appendChild(sc)
+        // sc.setAttribute("src","Screenshot (18).png")
+        // sc.style.width="100px"
+        // sc.setAttributeNS("download","alret","Screenshot (18).png")
+
+        
+       
+
+    </script>
+</body>
+
+</html>
